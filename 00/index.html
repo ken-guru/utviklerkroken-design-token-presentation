@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design tokens</title>
+  <link rel="stylesheet" href="../shared.css">
+
+  <style>
+    body {
+      color: #ccc;
+      background-color: #333;
+      margin: 0;
+      padding-block: 10vh;
+      padding-inline: 1rem;
+      font-family: sans-serif;
+      box-sizing: border-box;
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    p {
+      font-family: sans-serif;
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 4rem;
+      margin: 0;
+      max-width: 80vw;
+    }
+
+    em {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: #ff00ff;
+    }
+  </style>
+</head>
+<body>
+  <p>
+    Et <em>designsystem er en samling av retningslinjer</em>, prinsipper, komponenter og ressurser som brukes til å <em>opprettholde en konsistent designopplevelse</em> på tvers av et produkt eller en organisasjon.
+    Designsystemer bidrar til å sikre at designet er helhetlig, brukervennlig og skalerbart.
+    De gir et rammeverk for å utvikle og vedlikeholde brukergrensesnittet, samtidig som de <em>sikrer konsistens og effektivitet</em> i designprosessen.
+  </p>
+
+  <p>
+    Designsystemer benytter seg ofte av <em>designtokens</em> som et verktøy for å opprettholde konsistens og effektivitet.
+    Design tokens er en <em>abstrakt representasjon av designattributter</em> som farge, typografi, størrelse og mellomrom.
+    De er små, gjenbrukbare enheter som representerer designets byggeklosser.
+    I stedet for å hardkode designattributter direkte inn i grensesnittet, bruker designsystemer designtokens for å <em>definere og styre</em> designattributter <em>sentralt</em>.
+  </p>
+
+  <p>
+    Designtokens fungerer som en <em>"single source of truth"</em> for designattributter.
+    De kan defineres en gang og deretter brukes på tvers av forskjellige plattformer, enheter og kanaler.
+    Når en endring gjøres i en designtoken, oppdateres den automatisk på alle steder der den er i bruk.
+    Dette gjør det enklere å <em>opprettholde konsistens</em> og <em>gjøre endringer</em> i designet <em>på en effektiv måte</em>.
+  </p>
+
+  <p>
+    Sammenhengen mellom designsystemer og designtokens er derfor at <em>designtokens brukes som et verktøy</em> i designsystemer for å opprettholde konsistens, effektivitet og skalerbarhet.
+    Designsystemet definerer retningslinjer og prinsipper, mens <em>designtokens brukes som byggeklosser</em> for å implementere og styre designattributter på en konsistent måte.
+  </p>
+
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/00/" class="current">Intro</a></li>
+      <li><a href="/01/">Hardcode</a></li>
+      <li><a href="/02/">Core</a></li>
+      <li><a href="/03/">Semantic</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

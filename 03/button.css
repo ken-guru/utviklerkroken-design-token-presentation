@@ -1,0 +1,24 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: var(--sem--color--primary--surface);
+  color: var(--sem--color--primary--on-surface);
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: var(--sem--color--primary--hover--surface);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: var(--sem--color--primary--active--surface);
+}
+
+button:focus {
+  outline: 3px solid var(--sem--color--focus--outline);
+  outline-offset: 2px;
+}

@@ -1,0 +1,41 @@
+:root {
+  --core--color--monochrome--100: #ffffff;
+  --core--color--monochrome--200: #e6e6e6;
+  --core--color--monochrome--300: #cccccc;
+  --core--color--monochrome--400: #b3b3b3;
+  --core--color--monochrome--500: #999999;
+  --core--color--monochrome--600: #808080;
+  --core--color--monochrome--700: #666666;
+  --core--color--monochrome--800: #4d4d4d;
+  --core--color--monochrome--900: #000000;
+
+  --core--color--green--100: #d4efdf;
+  --core--color--green--200: #a9dfbf;
+  --core--color--green--300: #7dcea0;
+  --core--color--green--400: #52be80;
+  --core--color--green--500: #27ae60;
+  --core--color--green--600: #229954;
+  --core--color--green--700: #1e8449;
+  --core--color--green--800: #196f3d;
+  --core--color--green--900: #145a32;
+
+  --core--color--blue--100: #d6eaf8;
+  --core--color--blue--200: #aed6f1;
+  --core--color--blue--300: #85c1e9;
+  --core--color--blue--400: #5dade2;
+  --core--color--blue--500: #3498db;
+  --core--color--blue--600: #2e86c1;
+  --core--color--blue--700: #2874a6;
+  --core--color--blue--800: #21618c;
+  --core--color--blue--900: #1b4f72;
+
+  --core--color--red--100: #f9ebea;
+  --core--color--red--200: #f2d7d5;
+  --core--color--red--300: #e6b0aa;
+  --core--color--red--400: #d98880;
+  --core--color--red--500: #cd6155;
+  --core--color--red--600: #c0392b;
+  --core--color--red--700: #a93226;
+  --core--color--red--800: #922b21;
+  --core--color--red--900: #7b241c;
+}

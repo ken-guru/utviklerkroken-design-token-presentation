@@ -1,0 +1,30 @@
+label.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+label.checkbox:hover {
+  text-decoration: underline;
+}
+
+label.checkbox:focus-within {
+  outline: 3px solid var(--sem--color--focus--outline);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+input[type='checkbox'] {
+  width: 1.5em;
+  height: 1.5em;
+  accent-color: var(--sem--color--primary--surface);
+}
+
+input[type='checkbox']:hover {
+  accent-color: var(--sem--color--primary--hover--surface);
+}
+
+input[type='checkbox']:active {
+  accent-color: var(--sem--color--primary--active--surface);
+}

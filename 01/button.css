@@ -1,0 +1,24 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #2ecc71;
+  color: #333;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: #27ae60;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #1e8449;
+}
+
+button:focus {
+  outline: 3px solid #a93226;
+  outline-offset: 2px;
+}

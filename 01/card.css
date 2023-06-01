@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  max-width: 300px;
+}
+
+.card > * {
+  margin: 0;
+}
+
+.card.primary {
+  border-color: #3498db;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.card.primary button {
+  background-color: #fff;
+  color: #2c3e50;
+}
+
+.card.primary button:hover {
+  background-color: #eee;
+}
+
+.card.primary button:active {
+  background-color: #ddd;
+}
+
+.card.primary button:focus {
+  outline-color: #fff;
+}

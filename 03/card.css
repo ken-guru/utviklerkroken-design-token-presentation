@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--sem--color--border);
+  max-width: 300px;
+}
+
+.card > * {
+  margin: 0;
+}
+
+.card.cta {
+  border-color: var(--sem--color--cta--surface);
+  background-color: var(--sem--color--cta--surface);
+  color: var(--sem--color--cta--on-surface);
+}
+
+.card.cta button {
+  background-color: var(--sem--color--cta--inverse--surface);
+  color: var(--sem--color--cta--inverse--on-surface);
+}
+
+.card.cta button:hover {
+  background-color: var(--sem--color--cta--inverse--hover--surface);
+}
+
+.card.cta button:active {
+  background-color: var(--sem--color--cta--inverse--active--surface);
+}
+
+.card.cta button:focus {
+  outline-color: var(--sem--color--cta--on-surface);
+}

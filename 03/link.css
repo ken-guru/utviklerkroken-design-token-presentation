@@ -1,0 +1,20 @@
+a {
+  color: var(--sem--color--primary--surface);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:active {
+  color: var(--sem--color--primary--active--surface);
+}
+
+a:focus {
+  outline: 3px solid var(--sem--color--focus--outline);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}

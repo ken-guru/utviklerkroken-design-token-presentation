@@ -1,0 +1,18 @@
+:root {
+  --sem--color--border: var(--core--color--monochrome--300);
+
+  --sem--color--primary--surface: var(--core--color--green--400);
+  --sem--color--primary--on-surface: var(--core--color--monochrome--800);
+  --sem--color--primary--hover--surface: var(--core--color--green--500);
+  --sem--color--primary--active--surface: var(--core--color--green--600);
+
+  --sem--color--cta--surface: var(--core--color--blue--500);
+  --sem--color--cta--on-surface: var(--core--color--monochrome--100);
+
+  --sem--color--cta--inverse--surface: var(--core--color--monochrome--100);
+  --sem--color--cta--inverse--on-surface: var(--core--color--blue--500);
+  --sem--color--cta--inverse--hover--surface: var(--core--color--monochrome--200);
+  --sem--color--cta--inverse--active--surface: var(--core--color--monochrome--300);
+
+  --sem--color--focus--outline: var(--core--color--red--500);
+}

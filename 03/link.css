@@ -1,7 +1,6 @@
 a {
   color: var(--sem--color--primary--surface);
   text-decoration: none;
-  font-weight: bold;
 }
 
 a:hover {

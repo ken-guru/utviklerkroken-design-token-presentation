@@ -38,4 +38,15 @@
   --core--color--red--700: #a93226;
   --core--color--red--800: #922b21;
   --core--color--red--900: #7b241c;
+
+  /* Added pink color to the palette */
+  --core--color--pink--100: #f8c9f8;
+  --core--color--pink--200: #f1aaf1;
+  --core--color--pink--300: #e98ce9;
+  --core--color--pink--400: #e26de2;
+  --core--color--pink--500: #db4bdb;
+  --core--color--pink--600: #c739c7;
+  --core--color--pink--700: #b532b5;
+  --core--color--pink--800: #9e299e;
+  --core--color--pink--900: #872187;
 }

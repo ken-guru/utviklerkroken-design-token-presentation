@@ -75,5 +75,23 @@
       <li><a href="/03/">Semantic</a></li>
     </ul>
   </nav>
+
+  <script>
+    window.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') {
+        if (document.querySelector('nav .current').parentElement.nextElementSibling === null) {
+          window.location.href = document.querySelector('nav li:first-child a').href;
+          return;
+        }
+        window.location.href = document.querySelector('nav .current').parentElement.nextElementSibling.querySelector('a').href;
+      } else if (e.key === 'ArrowLeft') {
+        if (document.querySelector('nav .current').parentElement.previousElementSibling === null) {
+          window.location.href = document.querySelector('nav li:last-child a').href;
+          return;
+        }
+        window.location.href = document.querySelector('nav .current').parentElement.previousElementSibling.querySelector('a').href;
+      }
+    })
+  </script>
 </body>
 </html>
